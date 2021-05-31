@@ -1,0 +1,4 @@
+tree("Root")
+  sequence
+    //Seleciona uma posição aleatória e deopis move o objeto até ela
+    PickRandomDestination MoveToDestination

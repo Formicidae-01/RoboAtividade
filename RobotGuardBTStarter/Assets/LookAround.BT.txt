@@ -1,0 +1,13 @@
+tree("Root")
+    sequence
+	    //randomicamente seleciona um dos ângulos para que o objeto rotacione
+        random(5,1,1,1)
+					Turn(90.0)
+					Turn(-90.0)
+					Turn(145.0)
+					Turn(-27.0)
+			//Após a seleção, o objeto rotacionará
+			LookAtTarget
+            
+			//Aguarda um tempo aleatório até executar a tarefa novamente (por alguma razão "WaitRandom" não funciona, afirmando que tem muitas definições)
+			WaitRandom(1.0,5.0)

@@ -1,0 +1,12 @@
+tree("Root")
+   sequence
+        //Seleciona uma posição, após isso o objeto se move até ela através do agente navMesh
+		//Após a movimentação, seleciona outra posição, executando o ciclo 4 vezes
+        PickDestination(-100,-100)
+				MoveToDestination
+				PickDestination(-100, 100)
+				MoveToDestination
+				PickDestination( 100, 100)
+				MoveToDestination
+				PickDestination( 100,-100)
+				MoveToDestination

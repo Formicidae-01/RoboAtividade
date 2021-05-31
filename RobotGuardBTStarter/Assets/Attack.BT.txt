@@ -1,0 +1,8 @@
+tree("Root")
+    //Executa a sequência caso o objeto esteja visualizando o jogador
+    while SeePlayer
+	    		sequence
+				        //Seleciona o jogador como alvo, após isso rotaciona em sua direção e depois dispara um projétil
+	        			TargetPlayer
+	            			LookAtTarget
+	            			Fire
